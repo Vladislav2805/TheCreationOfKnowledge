@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCreationOfKnowledge", "TheCreationOfKnowledge\TheCreationOfKnowledge.csproj", "{D1D16167-6BAC-470A-A58F-CD29E184C41A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{998111E7-FD7E-4CD1-BD6E-AD21CEA1582F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheCreationOfKnowledgeEntitiesLib", "TheCreationOfKnowledgeEntitiesLib\TheCreationOfKnowledgeEntitiesLib.csproj", "{477498F8-5853-4785-B1C7-747CCD37E21C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1D16167-6BAC-470A-A58F-CD29E184C41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D16167-6BAC-470A-A58F-CD29E184C41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D16167-6BAC-470A-A58F-CD29E184C41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D16167-6BAC-470A-A58F-CD29E184C41A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{477498F8-5853-4785-B1C7-747CCD37E21C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477498F8-5853-4785-B1C7-747CCD37E21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477498F8-5853-4785-B1C7-747CCD37E21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477498F8-5853-4785-B1C7-747CCD37E21C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{477498F8-5853-4785-B1C7-747CCD37E21C} = {998111E7-FD7E-4CD1-BD6E-AD21CEA1582F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABAA5AB5-059A-46F1-9ED5-90F4569E4C7B}
+	EndGlobalSection
+EndGlobal
